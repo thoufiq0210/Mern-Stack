@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <tittle> Animation</tittle>
+    <style>
+        body{
+      
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 20px;
+          display: flex;
+          justify-content: center ;
+          align-items: center;
+          height: 100vh;
+          background-color: #125c46;
+          color:antiquewhite;
+        }
+
+        .animy{
+            overflow: hidden;
+            width: 90%;
+            border: 2px solid #119217  ;
+            border-radius: 12px;
+            padding: 12px;
+            white-space: nowrap;
+}
+        .effect{
+            display:inline-block;
+            font-size: 25px;
+            font-weight: bold;
+            animation: scroll-right 10s linear infinite;
+
+        }
+
+        @keyframes scroll-right{
+            from{
+                transform: translatex(100%);
+            }
+            to{
+                transform: translatex(-100%);
+            }
+            
+        }
+    </style>
+
+
+
+    </head>
+
+    <head>
+        <div class="animy">
+       <div class="effect">Here is the scrolling text animation</div>
+
+        </div>
+    </head>
+</html>
